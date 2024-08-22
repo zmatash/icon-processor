@@ -9,6 +9,24 @@ readme = "README.md"
 python = "^3.11"
 
 
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.1"
+
+[tool.ruff]
+fix = true
+unsafe-fixes = false
+
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "R", "W", "I", "N", "D", "C", "PERF", "FURB", "RUF"]
+ignore = ["D417", "RUF012"]
+
+[tool.ruff.format]
+quote-style = "double"
+docstring-code-format = true
+indent-style = "space"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

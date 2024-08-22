@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "icon-processor",
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.analysis.autoImportCompletions": true,
+		"python.analysis.completeFunctionParens": true,
+		"python.analysis.autoFormatStrings": true,
+		"python.analysis.typeCheckingMode": "strict"
+	}
+}
